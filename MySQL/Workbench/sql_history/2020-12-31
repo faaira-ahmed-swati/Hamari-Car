@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ENTRY timestamp='00:02:22'>~</ENTRY>
+<ENTRY timestamp='00:36:09'>~</ENTRY>
+<ENTRY timestamp='01:23:16'>~</ENTRY>
+<ENTRY timestamp='01:24:39'>CREATE TABLE `mrms`.`member` (&#x0A;  `cnic` DOUBLE NOT NULL,&#x0A;  `name` VARCHAR(45) NULL,&#x0A;  `contact` INT NULL,&#x0A;  `address` VARCHAR(45) NULL,&#x0A;  PRIMARY KEY (`cnic`))</ENTRY>
+<ENTRY timestamp='01:25:31'>insert into member values (545484848,'Faraz',0300331,'gali mohalla')</ENTRY>
+<ENTRY timestamp='01:25:43'>select * from member</ENTRY>
+<ENTRY timestamp='02:25:16'>DROP TABLE `mrms`.`member`</ENTRY>
+<ENTRY timestamp='02:26:17'>CREATE TABLE `mrms`.`member` (&#x0A;  `cnic` DOUBLE NOT NULL,&#x0A;  `name` VARCHAR(45) NULL,&#x0A;  `contact` INT NULL,&#x0A;  `address` VARCHAR(45) NULL,&#x0A;  PRIMARY KEY (`cnic`))</ENTRY>
+<ENTRY timestamp='02:30:32'>DROP TABLE `mrms`.`member`</ENTRY>
+<ENTRY timestamp='02:31:11'>CREATE TABLE `mrms`.`member` (&#x0A;  `cnic` DOUBLE NOT NULL,&#x0A;  `name` VARCHAR(45) NULL,&#x0A;  `contact` VARCHAR(45) NULL,&#x0A;  `address` VARCHAR(45) NULL,&#x0A;  PRIMARY KEY (`cnic`))</ENTRY>
+<ENTRY timestamp='02:31:21'>insert into member values (545484848,'Faraz',0300331,'gali mohalla')</ENTRY>
+<ENTRY timestamp='02:31:39'>insert into member values (15,'Faraz','545','gali mohalla')</ENTRY>
+<ENTRY timestamp='02:31:43'>select * from member</ENTRY>
+<ENTRY timestamp='15:42:00'>CREATE TABLE `mrms`.`rented` (&#x0A;  `membercnic` INT NOT NULL,&#x0A;  `membername` VARCHAR(45) NULL,&#x0A;  `movieid` INT NOT NULL,&#x0A;  `moviename` VARCHAR(45) NULL,&#x0A;  `rentdays` INT NULL,&#x0A;  PRIMARY KEY (`membercnic`, `movieid`))</ENTRY>

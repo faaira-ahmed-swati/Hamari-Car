@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ENTRY timestamp='01:18:34'>insert into rented values (44107,'Faraz','3','Titanic',30)</ENTRY>
+<ENTRY timestamp='02:38:14'>ALTER TABLE `mrms`.`rent` &#x0A;CHANGE COLUMN `membercnic` `membercnic` DOUBLE NOT NULL ,&#x0A;DROP PRIMARY KEY,&#x0A;ADD PRIMARY KEY (`movieid`, `membercnic`)</ENTRY>
+<ENTRY timestamp='02:43:13'>select * from rent</ENTRY>
+<ENTRY timestamp='16:27:53'>select * from sell</ENTRY>

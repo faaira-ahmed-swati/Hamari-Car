@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+
+    <children>
+      <ImageView fitHeight="600.0" fitWidth="950.0" layoutX="-50.0">
+         <image>
+            <Image url="file:/home/faaira/Desktop/Semester 6/SE/sprint2/HmariCar/to send/a.jpg" />
+         </image>
+      </ImageView>
+        <VBox layoutX="331.0" layoutY="98.0" prefHeight="474.0" prefWidth="238.0">
+            <children>
+                <AnchorPane prefHeight="457.0" prefWidth="260.0">
+                    <children>
+                        <Button layoutX="78.0" layoutY="270.0" mnemonicParsing="false" onAction="#passwordManager" text="Manager?" textFill="#ff0202" />
+                        <Button layoutX="80.0" layoutY="411.0" mnemonicParsing="false" onAction="#passwordInvestor" text="Investor?" textFill="#d91aca" />
+                        <ImageView fitHeight="80.0" fitWidth="90.0" layoutX="81.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:/home/faaira/Desktop/Semester 6/SE/sprint2/HmariCar/src/sample/r.jpg" />
+                     </image>
+                        </ImageView>
+                        <ImageView fitHeight="80.0" fitWidth="90.0" layoutX="76.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="file:/home/faaira/Desktop/Semester 6/SE/sprint2/HmariCar/src/sample/pngtree-vector-user-young-boy-avatar-icon-png-image_1538408.jpg" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="80.0" fitWidth="90.0" layoutX="86.0" layoutY="322.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="file:/home/faaira/Desktop/Semester 6/SE/sprint2/HmariCar/src/sample/m.jpg" />
+                            </image>
+                        </ImageView>
+                        <Button defaultButton="true" layoutX="69.0" layoutY="127.0" mnemonicParsing="false" onAction="#passwordCustomer" text="Customer?" textFill="#1d2794" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </VBox>
+
+        <Label alignment="TOP_CENTER" layoutX="186.0" layoutY="29.0" text="Welcome To Hamari Car" underline="true">
+            <font>
+                <Font name="Times New Roman Bold" size="47.0" />
+            </font>
+         <textFill>
+            <RadialGradient centerX="0.8388888888888888" centerY="0.5380952380952381" cycleMethod="REFLECT" radius="0.5">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color blue="0.16995614767074585" green="0.8157894611358643" red="0.7727339267730713" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.5429553264604811">
+                     <color>
+                        <Color blue="0.23148147761821747" green="0.36415693163871765" red="0.5263158082962036" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9965635738831614">
+                     <color>
+                        <Color blue="0.8399999737739563" green="0.12600000202655792" red="0.2524321377277374" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color blue="0.8026315569877625" green="0.7219968438148499" red="0.1114766076207161" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </textFill>
+        </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="investor.InvestorController">
+    <top>
+        <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <AnchorPane prefHeight="100.0" prefWidth="902.0">
+                    <children>
+                  <ImageView fitHeight="620.0" fitWidth="900.0" layoutY="-4.0">
+                     <image>
+                         <Image url="file:/home/faaira/Desktop/Semester 6/SE/sprint2/HmariCar/to send/investincar.jpg" />
+                     </image>
+                  </ImageView>
+                        <Label alignment="TOP_CENTER" layoutX="296.0" layoutY="24.0" text="Hamari Car" underline="true">
+                            <font>
+                                <Font name="Times New Roman Bold" size="47.0" />
+                            </font>
+                     <textFill>
+                        <LinearGradient endX="0.40476190476190477" startX="1.0" startY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="1.0" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                        </Label>
+                        <ImageView fitHeight="83.0" fitWidth="94.0" layoutX="807.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="file:/home/faaira/Desktop/Semester 6/SE/sprint2/HmariCar/src/sample/m.jpg" />
+                            </image>
+                        </ImageView>
+                        <Button layoutX="644.0" layoutY="501.0" mnemonicParsing="false" onAction="#investBackPressed" prefHeight="26.0" prefWidth="78.0" text="Go Back" />
+                      <Button layoutX="587.0" layoutY="257.0" mnemonicParsing="false" onAction="#investPressed" prefHeight="32.0" prefWidth="105.0" text="Invest">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <textFill>
+                        <RadialGradient centerX="0.6777777777777778" centerY="0.5" radius="0.5">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.01315789483487606" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </textFill>
+                  </Button>
+                      <Label layoutX="203.0" layoutY="74.0" text="Enter car info" />
+                      <TextField fx:id="txtSector" layoutX="162.0" layoutY="260.0" prefHeight="26.0" prefWidth="82.0" text="sector">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="txtType" layoutX="244.0" layoutY="260.0" prefHeight="26.0" prefWidth="82.0" text="type">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="txtModel" layoutX="326.0" layoutY="260.0" prefHeight="26.0" prefWidth="82.0" text="model">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="txtNumber" layoutX="409.0" layoutY="260.0" prefHeight="26.0" prefWidth="82.0" text="number">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="txtColor" layoutX="491.0" layoutY="260.0" prefHeight="26.0" prefWidth="82.0" text="color">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                      <Label layoutX="332.0" layoutY="127.0" text="Invest">
+                          <font>
+                              <Font name="System Bold" size="54.0" />
+                          </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="0.17619047619047623" startX="0.12380952380952381">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="1.0" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                      </Label>
+                      <Button layoutX="729.0" layoutY="92.0" mnemonicParsing="false" onAction="#sample_view" prefHeight="26.0" prefWidth="94.0" text="Log Out" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </HBox>
+    </top>
+</BorderPane>

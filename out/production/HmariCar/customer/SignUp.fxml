@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="customer.CustomerController">
+        <top>
+            <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                <children>
+                    <AnchorPane prefHeight="100.0" prefWidth="902.0">
+                        <children>
+                            <ImageView fitHeight="620.0" fitWidth="900.0" layoutY="-4.0">
+                                <image>
+                                    <Image url="file:/home/faaira/Desktop/car.jpeg" />
+                                </image>
+                            </ImageView>
+                            <Button layoutX="757.0" layoutY="535.0" mnemonicParsing="false" onAction="#sample_view" prefHeight="26.0" prefWidth="78.0" text="Go Back" />
+                            <Button layoutX="453.0" layoutY="461.0" mnemonicParsing="false" onAction="#signupPressed" prefHeight="19.0" prefWidth="77.0" text="Submit">
+                                <font>
+                                    <Font size="15.0" />
+                                </font>
+                                <textFill>
+                                    <RadialGradient centerX="0.6777777777777778" centerY="0.5" radius="0.5">
+                                        <stops>
+                                            <Stop>
+                                                <color>
+                                                    <Color red="0.01315789483487606" />
+                                                </color>
+                                            </Stop>
+                                            <Stop offset="1.0">
+                                                <color>
+                                                    <Color red="1.0" />
+                                                </color>
+                                            </Stop>
+                                        </stops>
+                                    </RadialGradient>
+                                </textFill>
+                            </Button>
+                            <TextField fx:id="name" layoutX="155.0" layoutY="155.0" prefHeight="29.0" prefWidth="147.0" promptText="Name">
+                                <font>
+                                    <Font size="15.0" />
+                                </font>
+                            </TextField>
+                            <TextField fx:id="age" layoutX="156.0" layoutY="265.0" prefHeight="29.0" prefWidth="145.0" promptText="Age">
+                                <font>
+                                    <Font size="15.0" />
+                                </font>
+                            </TextField>
+                            <TextField fx:id="number" layoutX="157.0" layoutY="316.0" prefHeight="29.0" prefWidth="143.0" promptText="Mobile Number">
+                                <font>
+                                    <Font size="15.0" />
+                                </font>
+                            </TextField>
+                            <TextField fx:id="DOB" layoutX="158.0" layoutY="368.0" prefHeight="29.0" prefWidth="142.0" promptText="Date of Birth">
+                                <font>
+                                    <Font size="15.0" />
+                                </font>
+                            </TextField>
+                            <TextField fx:id="email" layoutX="158.0" layoutY="421.0" prefHeight="29.0" prefWidth="141.0" promptText="Email">
+                                <font>
+                                    <Font size="15.0" />
+                                </font>
+                            </TextField>
+                            <Label layoutX="293.0" layoutY="18.0" text="Enter Details">
+                                <font>
+                                    <Font name="System Bold" size="54.0" />
+                                </font>
+                                <textFill>
+                                    <LinearGradient endX="1.0" endY="0.17619047619047623" startX="0.12380952380952381">
+                                        <stops>
+                                            <Stop color="RED" />
+                                            <Stop color="WHITE" offset="1.0" />
+                                        </stops>
+                                    </LinearGradient>
+                                </textFill>
+                            </Label>
+                            <Button layoutX="123.0" layoutY="535.0" mnemonicParsing="false" onAction="#sample_view" prefHeight="26.0" prefWidth="94.0" text="Log Out" />
+                  <TextField fx:id="password" layoutX="155.0" layoutY="213.0" prefHeight="29.0" prefWidth="148.0" promptText="Password">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+                        </children>
+                    </AnchorPane>
+                </children>
+            </HBox>
+        </top>
+    </BorderPane>

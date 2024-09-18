@@ -1,0 +1,1001 @@
+[1, 01:59:26] Apply changes to abc: Applying object changes ...
+[1, 01:59:32] Applying changes to abc...: 
+[1, 01:59:32] : Changes applied to abc
+[1, 01:59:37] Apply changes to abc: Changes applied
+[1, 02:02:56] DROP DATABASE `abc`: Running...
+[1, 02:02:57] DROP DATABASE `abc`: 0 row(s) affected
+[2, 02:03:12] Apply changes to MRMS: Applying object changes ...
+[2, 02:03:27] Applying changes to mrms...: 
+[2, 02:03:27] : Changes applied to mrms
+[2, 02:03:29] Apply changes to MRMS: Changes applied
+[3, 02:08:06] Apply changes to test: Applying object changes ...
+[3, 02:08:10] Applying changes to test...: 
+[3, 02:08:12] : Changes applied to test
+[3, 02:08:15] Apply changes to test: Changes applied
+[1, 12:59:08] Apply changes to movieTable: Applying object changes ...
+[1, 12:59:31] Applying changes to movietable...: 
+[1, 12:59:47] Apply changes to movieTable: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+SQL Statement:
+CREATE TABLE `mrms`.`movietable` (
+
+)
+
+
+[2, 13:00:32] Apply changes to movietable: Applying object changes ...
+[2, 13:00:37] Apply changes to movietable: 
+[3, 13:01:21] Apply changes to movietable: Applying object changes ...
+[3, 13:01:24] Applying changes to movietable...: 
+[3, 13:01:26] : Changes applied to movietable
+[3, 13:01:29] Apply changes to movietable: Changes applied
+[4, 13:03:02] SELECT id
+FROM `mrms`.`movietable`
+LIMIT 0, 1000
+: Running...
+[4, 13:03:02] SELECT id
+FROM `mrms`.`movietable`
+LIMIT 0, 1000
+: Fetching...
+[4, 13:03:02] SELECT id
+FROM `mrms`.`movietable`
+LIMIT 0, 1000
+: 0 row(s) returned
+[5, 13:05:05] desc movietable: Running...
+[5, 13:05:05] desc movietable: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[6, 13:05:07] desc movietable: Running...
+[6, 13:05:07] desc movietable: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[7, 13:05:08] desc movietable: Running...
+[7, 13:05:08] desc movietable: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[8, 13:05:24] desc movietable: Running...
+[8, 13:05:24] desc movietable: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+[9, 13:07:39] SELECT * FROM mrms.movietable
+LIMIT 0, 1000
+: Running...
+[9, 13:07:39] SELECT * FROM mrms.movietable
+LIMIT 0, 1000
+: Fetching...
+[9, 13:07:39] SELECT * FROM mrms.movietable
+LIMIT 0, 1000
+: 0 row(s) returned
+[10, 13:07:56] desc movietable: Running...
+[10, 13:07:56] desc movietable: Fetching...
+[10, 13:07:56] desc movietable: 4 row(s) returned
+[11, 13:08:56] SELECT id
+FROM `mrms`.`movietable`
+LIMIT 0, 1000
+: Running...
+[11, 13:08:56] SELECT id
+FROM `mrms`.`movietable`
+LIMIT 0, 1000
+: Fetching...
+[11, 13:08:56] SELECT id
+FROM `mrms`.`movietable`
+LIMIT 0, 1000
+: 0 row(s) returned
+[12, 13:11:42] insert into movietable values(1,'Titanic'): Running...
+[12, 13:11:42] insert into movietable values(1,'Titanic'): Error Code: 1136. Column count doesn't match value count at row 1
+[13, 13:12:15] insert into movietable values(1,'1'): Running...
+[13, 13:12:15] insert into movietable values(1,'1'): Error Code: 1136. Column count doesn't match value count at row 1
+[14, 13:13:17] insert into movietable values('1','Titanic', 'Romance', '50'): Running...
+[14, 13:13:17] insert into movietable values('1','Titanic', 'Romance', '50'): 1 row(s) affected
+[15, 13:13:39] insert into movietable values('1','Aladin', 'Adventure', '20'): Running...
+[15, 13:13:39] insert into movietable values('1','Aladin', 'Adventure', '20'): Error Code: 1062. Duplicate entry '1' for key 'movietable.PRIMARY'
+[16, 13:13:47] insert into movietable values('2','Aladin', 'Adventure', '20'): Running...
+[16, 13:13:47] insert into movietable values('2','Aladin', 'Adventure', '20'): 1 row(s) affected
+[17, 13:14:39] select * from student
+LIMIT 0, 1000
+: Running...
+[17, 13:14:39] select * from student
+LIMIT 0, 1000
+: Error Code: 1146. Table 'mrms.student' doesn't exist
+[18, 13:14:49] select * from movieTable
+LIMIT 0, 1000
+: Running...
+[18, 13:14:49] select * from movieTable
+LIMIT 0, 1000
+: Fetching...
+[18, 13:14:49] select * from movieTable
+LIMIT 0, 1000
+: 2 row(s) returned
+[19, 13:15:48] select * from movietable
+LIMIT 0, 1000
+: Running...
+[19, 13:15:48] select * from movietable
+LIMIT 0, 1000
+: Fetching...
+[19, 13:15:48] select * from movietable
+LIMIT 0, 1000
+: 2 row(s) returned
+[1, 14:20:32] select * from movietable
+LIMIT 0, 1000
+: Running...
+[1, 14:20:32] select * from movietable
+LIMIT 0, 1000
+: Fetching...
+[1, 14:20:32] select * from movietable
+LIMIT 0, 1000
+: 2 row(s) returned
+[1, 20:07:34] DROP TABLE `mrms`.`movietable`: Running...
+[1, 20:07:35] DROP TABLE `mrms`.`movietable`: 0 row(s) affected
+[2, 20:08:55] Apply changes to movietable: Applying object changes ...
+[2, 20:08:58] Applying changes to movietable...: 
+[2, 20:09:00] : Changes applied to movietable
+[2, 20:09:02] Apply changes to movietable: Changes applied
+[3, 20:09:28] Apply changes to movietable: Applying object changes ...
+[3, 20:09:31] Applying changes to movietable...: 
+[3, 20:09:33] Apply changes to movietable: Error 1171: All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead
+SQL Statement:
+ALTER TABLE `mrms`.`movietable` 
+CHANGE COLUMN `id` `id` INT NULL DEFAULT NULL 
+
+
+[4, 20:09:39] Apply changes to movietable: Applying object changes ...
+[4, 20:09:40] Applying changes to movietable...: 
+[4, 20:09:42] Apply changes to movietable: Error 1171: All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead
+SQL Statement:
+ALTER TABLE `mrms`.`movietable` 
+CHANGE COLUMN `id` `id` INT NULL 
+
+
+[5, 20:10:02] select * from movietable
+LIMIT 0, 1000
+: Running...
+[5, 20:10:02] select * from movietable
+LIMIT 0, 1000
+: Fetching...
+[5, 20:10:02] select * from movietable
+LIMIT 0, 1000
+: 0 row(s) returned
+[6, 20:11:33] insert into movietablevalues (1,'Titanic','Romance',100,500): Running...
+[6, 20:11:33] insert into movietablevalues (1,'Titanic','Romance',100,500): Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1,'Titanic','Romance',100,500)' at line 1
+[7, 20:11:47] insert into movietable values (1,'Titanic','Romance',100,500): Running...
+[7, 20:11:47] insert into movietable values (1,'Titanic','Romance',100,500): 1 row(s) affected
+[8, 20:12:19] SELECT price
+FROM `mrms`.`movietable`
+LIMIT 0, 1000
+: Running...
+[8, 20:12:19] SELECT price
+FROM `mrms`.`movietable`
+LIMIT 0, 1000
+: Fetching...
+[8, 20:12:19] SELECT price
+FROM `mrms`.`movietable`
+LIMIT 0, 1000
+: 1 row(s) returned
+[9, 20:12:31] insert into movietable values (1,'Aladin','Adventure',50,200): Running...
+[9, 20:12:31] insert into movietable values (1,'Aladin','Adventure',50,200): Error Code: 1062. Duplicate entry '1' for key 'movietable.PRIMARY'
+[10, 20:12:41] insert into movietable values (2,'Aladin','Adventure',50,200): Running...
+[10, 20:12:41] insert into movietable values (2,'Aladin','Adventure',50,200): 1 row(s) affected
+[11, 20:17:01] insert into movietable values (3,'Twilight','Romance',200,700): Running...
+[11, 20:17:01] insert into movietable values (3,'Twilight','Romance',200,700): 1 row(s) affected
+[12, 21:38:40] Apply changes to sell: Applying object changes ...
+[12, 21:38:44] Applying changes to sell...: 
+[12, 21:38:46] : Changes applied to sell
+[12, 21:38:48] Apply changes to sell: Changes applied
+[13, 22:44:32] select * from sell
+LIMIT 0, 1000
+: Running...
+[13, 22:44:32] select * from sell
+LIMIT 0, 1000
+: Fetching...
+[13, 22:44:33] select * from sell
+LIMIT 0, 1000
+: 1 row(s) returned
+[14, 22:45:03] select * from sell
+LIMIT 0, 1000
+: Running...
+[14, 22:45:03] select * from sell
+LIMIT 0, 1000
+: Fetching...
+[14, 22:45:03] select * from sell
+LIMIT 0, 1000
+: 1 row(s) returned
+[15, 22:45:35] select * from sell
+LIMIT 0, 1000
+: Running...
+[15, 22:45:35] select * from sell
+LIMIT 0, 1000
+: Fetching...
+[15, 22:45:35] select * from sell
+LIMIT 0, 1000
+: 1 row(s) returned
+[16, 22:48:06] ALTER TABLE sell AUTO_INCREMENT = 1: Running...
+[16, 22:48:08] ALTER TABLE sell AUTO_INCREMENT = 1: 0 row(s) affected
+Records: 0  Duplicates: 0  Warnings: 0
+[17, 22:48:12] ALTER TABLE sell AUTO_INCREMENT = 1: Running...
+[17, 22:48:12] ALTER TABLE sell AUTO_INCREMENT = 1: 0 row(s) affected
+Records: 0  Duplicates: 0  Warnings: 0
+[18, 22:48:18] select * from sell
+LIMIT 0, 1000
+: Running...
+[18, 22:48:18] select * from sell
+LIMIT 0, 1000
+: Fetching...
+[18, 22:48:18] select * from sell
+LIMIT 0, 1000
+: 1 row(s) returned
+[19, 22:49:21] select * from sell
+LIMIT 0, 1000
+: Running...
+[19, 22:49:21] select * from sell
+LIMIT 0, 1000
+: Fetching...
+[19, 22:49:21] select * from sell
+LIMIT 0, 1000
+: 1 row(s) returned
+[20, 22:51:04] Apply changes to sell: Applying object changes ...
+[20, 22:51:09] Applying changes to sell...: 
+[20, 22:51:23] Apply changes to sell: Error 1171: All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead
+SQL Statement:
+ALTER TABLE `mrms`.`sell` 
+CHANGE COLUMN `custcontact` `custcontact` VARCHAR(45) NULL 
+
+
+[21, 22:51:28] Apply changes to sell: Applying object changes ...
+[21, 22:51:28] Apply changes to sell: No changes detected
+[22, 22:51:30] Apply changes to sell: Applying object changes ...
+[22, 22:51:30] Apply changes to sell: No changes detected
+[23, 22:51:46] Apply changes to sell: Applying object changes ...
+[23, 22:51:48] Applying changes to sell...: 
+[23, 22:51:52] : Changes applied to sell
+[23, 22:51:54] Apply changes to sell: Changes applied
+[24, 22:52:27] select * from sell
+LIMIT 0, 1000
+: Running...
+[24, 22:52:27] select * from sell
+LIMIT 0, 1000
+: Fetching...
+[24, 22:52:27] select * from sell
+LIMIT 0, 1000
+: 1 row(s) returned
+[25, 22:52:34] select * from movietable
+LIMIT 0, 1000
+: Running...
+[25, 22:52:34] select * from movietable
+LIMIT 0, 1000
+: Fetching...
+[25, 22:52:34] select * from movietable
+LIMIT 0, 1000
+: 3 row(s) returned
+[26, 22:52:39] select * from sell
+LIMIT 0, 1000
+: Running...
+[26, 22:52:39] select * from sell
+LIMIT 0, 1000
+: Fetching...
+[26, 22:52:39] select * from sell
+LIMIT 0, 1000
+: 1 row(s) returned
+[27, 23:00:44] select * from sell
+LIMIT 0, 1000
+: Running...
+[27, 23:00:44] select * from sell
+LIMIT 0, 1000
+: Fetching...
+[27, 23:00:45] select * from sell
+LIMIT 0, 1000
+: 3 row(s) returned
+[28, 23:25:13] select * from movietable
+LIMIT 0, 1000
+: Running...
+[28, 23:25:13] select * from movietable
+LIMIT 0, 1000
+: Fetching...
+[28, 23:25:13] select * from movietable
+LIMIT 0, 1000
+: 3 row(s) returned
+[29, 23:27:09] select * from movietable
+LIMIT 0, 1000
+: Running...
+[29, 23:27:09] select * from movietable
+LIMIT 0, 1000
+: Fetching...
+[29, 23:27:09] select * from movietable
+LIMIT 0, 1000
+: 4 row(s) returned
+[30, 23:34:53] select * from sell
+LIMIT 0, 1000
+: Running...
+[30, 23:34:53] select * from sell
+LIMIT 0, 1000
+: Fetching...
+[30, 23:34:54] select * from sell
+LIMIT 0, 1000
+: 5 row(s) returned
+[31, 00:02:22] select * from sell
+LIMIT 0, 1000
+: Running...
+[31, 00:02:22] select * from sell
+LIMIT 0, 1000
+: Fetching...
+[31, 00:02:23] select * from sell
+LIMIT 0, 1000
+: 6 row(s) returned
+[32, 00:36:09] select * from sell
+LIMIT 0, 1000
+: Running...
+[32, 00:36:09] select * from sell
+LIMIT 0, 1000
+: Fetching...
+[32, 00:36:09] select * from sell
+LIMIT 0, 1000
+: 7 row(s) returned
+[33, 01:23:16] select * from sell
+LIMIT 0, 1000
+: Running...
+[33, 01:23:16] select * from sell
+LIMIT 0, 1000
+: Fetching...
+[33, 01:23:16] select * from sell
+LIMIT 0, 1000
+: 8 row(s) returned
+[34, 01:24:34] Apply changes to member: Applying object changes ...
+[34, 01:24:37] Applying changes to member...: 
+[34, 01:24:39] : Changes applied to member
+[34, 01:24:41] Apply changes to member: Changes applied
+[35, 01:25:31] insert into member values (545484848,'Faraz',0300331,'gali mohalla'): Running...
+[35, 01:25:31] insert into member values (545484848,'Faraz',0300331,'gali mohalla'): 1 row(s) affected
+[36, 01:25:43] select * from member
+LIMIT 0, 1000
+: Running...
+[36, 01:25:43] select * from member
+LIMIT 0, 1000
+: Fetching...
+[36, 01:25:43] select * from member
+LIMIT 0, 1000
+: 1 row(s) returned
+[37, 02:25:16] DROP TABLE `mrms`.`member`: Running...
+[37, 02:25:17] DROP TABLE `mrms`.`member`: 0 row(s) affected
+[38, 02:26:13] Apply changes to member: Applying object changes ...
+[38, 02:26:16] Applying changes to member...: 
+[38, 02:26:17] : Changes applied to member
+[38, 02:26:19] Apply changes to member: Changes applied
+[39, 02:30:32] DROP TABLE `mrms`.`member`: Running...
+[39, 02:30:34] DROP TABLE `mrms`.`member`: 0 row(s) affected
+[40, 02:31:08] Apply changes to member: Applying object changes ...
+[40, 02:31:10] Applying changes to member...: 
+[40, 02:31:11] : Changes applied to member
+[40, 02:31:13] Apply changes to member: Changes applied
+[41, 02:31:21] insert into member values (545484848,'Faraz',0300331,'gali mohalla'): Running...
+[41, 02:31:21] insert into member values (545484848,'Faraz',0300331,'gali mohalla'): 1 row(s) affected
+[42, 02:31:39] insert into member values (15,'Faraz','545','gali mohalla'): Running...
+[42, 02:31:39] insert into member values (15,'Faraz','545','gali mohalla'): 1 row(s) affected
+[43, 02:31:43] select * from member
+LIMIT 0, 1000
+: Running...
+[43, 02:31:43] select * from member
+LIMIT 0, 1000
+: Fetching...
+[43, 02:31:43] select * from member
+LIMIT 0, 1000
+: 2 row(s) returned
+[1, 15:41:55] Apply changes to rented: Applying object changes ...
+[1, 15:41:58] Applying changes to rented...: 
+[1, 15:42:00] : Changes applied to rented
+[1, 15:42:03] Apply changes to rented: Changes applied
+[1, 01:18:34] insert into rented values (44107,'Faraz','3','Titanic',30): Running...
+[1, 01:18:34] insert into rented values (44107,'Faraz','3','Titanic',30): 1 row(s) affected
+[2, 01:25:08] select * from rented
+LIMIT 0, 1000
+: Running...
+[2, 01:25:08] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[2, 01:25:08] select * from rented
+LIMIT 0, 1000
+: 1 row(s) returned
+[3, 01:38:59] DROP TABLE `mrms`.`rented`: Running...
+[3, 01:39:01] DROP TABLE `mrms`.`rented`: 0 row(s) affected
+[4, 01:40:18] Apply changes to rented: Applying object changes ...
+[4, 01:40:20] Applying changes to rented...: 
+[4, 01:40:21] : Changes applied to rented
+[4, 01:40:24] Apply changes to rented: Changes applied
+[5, 01:40:32] insert into rented values (44107,'Faraz','3','Titanic'): Running...
+[5, 01:40:32] insert into rented values (44107,'Faraz','3','Titanic'): 1 row(s) affected
+[6, 01:40:36] select * from rented
+LIMIT 0, 1000
+: Running...
+[6, 01:40:36] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[6, 01:40:36] select * from rented
+LIMIT 0, 1000
+: 1 row(s) returned
+[7, 02:14:09] Apply changes to rented: Applying object changes ...
+[7, 02:14:12] Applying changes to rented...: 
+[7, 02:14:14] : Changes applied to rented
+[7, 02:14:16] Apply changes to rented: Changes applied
+[8, 02:18:00] Apply changes to rented: Applying object changes ...
+[8, 02:18:02] Applying changes to rented...: 
+[8, 02:18:06] Apply changes to rented: Error 1054: Unknown column '' in 'rented'
+SQL Statement:
+ALTER TABLE `mrms`.`rented` 
+DROP COLUMN `moviename`,
+CHANGE COLUMN `movieid` `movieid` INT NOT NULL FIRST,
+CHANGE COLUMN `` `membercnic` DOUBLE NOT NULL ,
+CHANGE COLUMN `` `membername` VARCHAR(45) NULL ,
+CHANGE COLUMN `` `rentdays` INT NULL ,
+DROP PRIMARY KEY,
+ADD PRIMARY KEY (`movieid`, `membercnic`)
+
+
+[9, 02:18:09] Apply changes to rented: Applying object changes ...
+[9, 02:18:22] Apply changes to rented: 
+[10, 02:18:28] DROP TABLE `mrms`.`rented`: Running...
+[10, 02:18:29] DROP TABLE `mrms`.`rented`: 0 row(s) affected
+[11, 02:18:38] Apply changes to rented: Applying object changes ...
+[11, 02:18:51] Apply changes to rented: 
+[12, 02:19:24] Apply changes to rented: Applying object changes ...
+[12, 02:19:25] Applying changes to rented...: 
+[12, 02:19:27] : Changes applied to rented
+[12, 02:19:28] Apply changes to rented: Changes applied
+[13, 02:23:45] Apply changes to rented: Applying object changes ...
+[13, 02:23:47] Applying changes to rented...: 
+[13, 02:23:52] : Changes applied to rented
+[13, 02:23:53] Apply changes to rented: Changes applied
+[14, 02:28:33] select * from rented
+LIMIT 0, 1000
+: Running...
+[14, 02:28:33] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[14, 02:28:33] select * from rented
+LIMIT 0, 1000
+: 1 row(s) returned
+[15, 02:34:43] Apply changes to rent: Applying object changes ...
+[15, 02:34:45] Applying changes to rent...: 
+[15, 02:34:47] : Changes applied to rent
+[15, 02:34:49] Apply changes to rent: Changes applied
+[1, 02:38:09] Apply changes to rent: Applying object changes ...
+[1, 02:38:11] Applying changes to rent...: 
+[1, 02:38:14] : Changes applied to rent
+[1, 02:38:16] Apply changes to rent: Changes applied
+[2, 02:38:24] select * from rented
+LIMIT 0, 1000
+: Running...
+[2, 02:38:24] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[2, 02:38:24] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[3, 02:38:51] select * from rented
+LIMIT 0, 1000
+: Running...
+[3, 02:38:51] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[3, 02:38:51] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[4, 02:38:53] select * from rented
+LIMIT 0, 1000
+: Running...
+[4, 02:38:53] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[4, 02:38:53] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[5, 02:39:02] select * from rented
+LIMIT 0, 1000
+: Running...
+[5, 02:39:02] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[5, 02:39:02] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[6, 02:39:18] select * from rented
+LIMIT 0, 1000
+: Running...
+[6, 02:39:18] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[6, 02:39:18] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[7, 02:39:25] select * from rent
+LIMIT 0, 1000
+: Running...
+[7, 02:39:25] select * from rent
+LIMIT 0, 1000
+: Fetching...
+[7, 02:39:25] select * from rent
+LIMIT 0, 1000
+: 3 row(s) returned
+[8, 02:39:57] Apply changes to rent: Applying object changes ...
+[8, 02:39:58] Applying changes to rent...: 
+[8, 02:40:11] Apply changes to rent: Error 1062: Duplicate entry '54' for key 'rent.PRIMARY'
+SQL Statement:
+ALTER TABLE `mrms`.`rent` 
+CHANGE COLUMN `membercnic` `membercnic` DOUBLE NULL ,
+DROP PRIMARY KEY,
+ADD PRIMARY KEY (`movieid`)
+
+
+[9, 02:40:30] select * from rented
+LIMIT 0, 1000
+: Running...
+[9, 02:40:30] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[9, 02:40:30] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[10, 02:40:32] select * from rented
+LIMIT 0, 1000
+: Running...
+[10, 02:40:32] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[10, 02:40:32] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[11, 02:40:33] select * from rented
+LIMIT 0, 1000
+: Running...
+[11, 02:40:33] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[11, 02:40:33] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[12, 02:40:33] select * from rented
+LIMIT 0, 1000
+: Running...
+[12, 02:40:33] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[12, 02:40:33] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[13, 02:40:34] select * from rented
+LIMIT 0, 1000
+: Running...
+[13, 02:40:34] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[13, 02:40:34] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[14, 02:40:34] select * from rented
+LIMIT 0, 1000
+: Running...
+[14, 02:40:34] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[14, 02:40:34] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[15, 02:40:35] select * from rented
+LIMIT 0, 1000
+: Running...
+[15, 02:40:35] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[15, 02:40:35] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[16, 02:40:35] select * from rented
+LIMIT 0, 1000
+: Running...
+[16, 02:40:35] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[16, 02:40:35] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[17, 02:40:36] select * from rented
+LIMIT 0, 1000
+: Running...
+[17, 02:40:36] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[17, 02:40:36] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[18, 02:40:37] select * from rented
+LIMIT 0, 1000
+: Running...
+[18, 02:40:37] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[18, 02:40:37] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[19, 02:40:47] select * from rent
+LIMIT 0, 1000
+: Running...
+[19, 02:40:47] select * from rent
+LIMIT 0, 1000
+: Fetching...
+[19, 02:40:47] select * from rent
+LIMIT 0, 1000
+: 3 row(s) returned
+[20, 02:41:05] Apply changes to rent: Applying object changes ...
+[20, 02:41:06] Applying changes to rent...: 
+[20, 02:41:09] : Changes applied to rent
+[20, 02:41:11] Apply changes to rent: Changes applied
+[21, 02:41:17] select * from rented
+LIMIT 0, 1000
+: Running...
+[21, 02:41:17] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[21, 02:41:17] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[22, 02:41:19] select * from rented
+LIMIT 0, 1000
+: Running...
+[22, 02:41:19] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[22, 02:41:19] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[23, 02:41:37] select * from rented
+LIMIT 0, 1000
+: Running...
+[23, 02:41:37] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[23, 02:41:37] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[24, 02:41:40] select * from rented
+LIMIT 0, 1000
+: Running...
+[24, 02:41:40] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[24, 02:41:40] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[25, 02:41:40] select * from rented
+LIMIT 0, 1000
+: Running...
+[25, 02:41:40] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[25, 02:41:40] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[26, 02:41:41] select * from rented
+LIMIT 0, 1000
+: Running...
+[26, 02:41:41] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[26, 02:41:41] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[27, 02:41:42] select * from rented
+LIMIT 0, 1000
+: Running...
+[27, 02:41:42] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[27, 02:41:42] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[28, 02:41:43] select * from rented
+LIMIT 0, 1000
+: Running...
+[28, 02:41:43] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[28, 02:41:43] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[29, 02:41:44] select * from rented
+LIMIT 0, 1000
+: Running...
+[29, 02:41:44] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[29, 02:41:44] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[30, 02:41:48] select * from rented
+LIMIT 0, 1000
+: Running...
+[30, 02:41:48] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[30, 02:41:48] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[31, 02:42:01] select * from rent
+LIMIT 0, 1000
+: Running...
+[31, 02:42:01] select * from rent
+LIMIT 0, 1000
+: Fetching...
+[31, 02:42:01] select * from rent
+LIMIT 0, 1000
+: 3 row(s) returned
+[32, 02:42:11] select * from rent
+LIMIT 0, 1000
+: Running...
+[32, 02:42:11] select * from rent
+LIMIT 0, 1000
+: Fetching...
+[32, 02:42:11] select * from rent
+LIMIT 0, 1000
+: 3 row(s) returned
+[33, 02:42:33] select * from rented
+LIMIT 0, 1000
+: Running...
+[33, 02:42:33] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[33, 02:42:33] select * from rented
+LIMIT 0, 1000
+: 2 row(s) returned
+[34, 02:42:46] select * from rented
+LIMIT 0, 1000
+: Running...
+[34, 02:42:46] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[34, 02:42:46] select * from rented
+LIMIT 0, 1000
+: 0 row(s) returned
+[35, 02:42:48] select * from rented
+LIMIT 0, 1000
+: Running...
+[35, 02:42:48] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[35, 02:42:48] select * from rented
+LIMIT 0, 1000
+: 0 row(s) returned
+[36, 02:42:48] select * from rented
+LIMIT 0, 1000
+: Running...
+[36, 02:42:48] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[36, 02:42:48] select * from rented
+LIMIT 0, 1000
+: 0 row(s) returned
+[37, 02:42:49] select * from rented
+LIMIT 0, 1000
+: Running...
+[37, 02:42:49] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[37, 02:42:49] select * from rented
+LIMIT 0, 1000
+: 0 row(s) returned
+[1, 02:43:13] select * from rent
+LIMIT 0, 1000
+: Running...
+[1, 02:43:13] select * from rent
+LIMIT 0, 1000
+: Fetching...
+[1, 02:43:13] select * from rent
+LIMIT 0, 1000
+: 0 row(s) returned
+[2, 02:43:15] select * from rent
+LIMIT 0, 1000
+: Running...
+[2, 02:43:15] select * from rent
+LIMIT 0, 1000
+: Fetching...
+[2, 02:43:16] select * from rent
+LIMIT 0, 1000
+: 0 row(s) returned
+[3, 02:43:18] select * from rented
+LIMIT 0, 1000
+: Running...
+[3, 02:43:18] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[3, 02:43:18] select * from rented
+LIMIT 0, 1000
+: 0 row(s) returned
+[4, 02:43:24] select * from rented
+LIMIT 0, 1000
+: Running...
+[4, 02:43:24] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[4, 02:43:25] select * from rented
+LIMIT 0, 1000
+: 0 row(s) returned
+[5, 02:43:26] select * from rented
+LIMIT 0, 1000
+: Running...
+[5, 02:43:26] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[5, 02:43:26] select * from rented
+LIMIT 0, 1000
+: 0 row(s) returned
+[6, 02:43:28] select * from rent
+LIMIT 0, 1000
+: Running...
+[6, 02:43:28] select * from rent
+LIMIT 0, 1000
+: Fetching...
+[6, 02:43:29] select * from rent
+LIMIT 0, 1000
+: 1 row(s) returned
+[7, 02:43:43] DROP TABLE `mrms`.`rented`: Running...
+[7, 02:43:45] DROP TABLE `mrms`.`rented`: 0 row(s) affected
+[8, 02:44:32] Apply changes to rented: Applying object changes ...
+[8, 02:44:33] Applying changes to rented...: 
+[8, 02:44:34] : Changes applied to rented
+[8, 02:44:36] Apply changes to rented: Changes applied
+[9, 02:44:48] select * from rent
+LIMIT 0, 1000
+: Running...
+[9, 02:44:48] select * from rent
+LIMIT 0, 1000
+: Fetching...
+[9, 02:44:48] select * from rent
+LIMIT 0, 1000
+: 2 row(s) returned
+[10, 02:44:51] select * from rented
+LIMIT 0, 1000
+: Running...
+[10, 02:44:51] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[10, 02:44:51] select * from rented
+LIMIT 0, 1000
+: 0 row(s) returned
+[11, 02:44:53] select * from rented
+LIMIT 0, 1000
+: Running...
+[11, 02:44:53] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[11, 02:44:53] select * from rented
+LIMIT 0, 1000
+: 0 row(s) returned
+[12, 02:44:55] select * from rent
+LIMIT 0, 1000
+: Running...
+[12, 02:44:55] select * from rent
+LIMIT 0, 1000
+: Fetching...
+[12, 02:44:55] select * from rent
+LIMIT 0, 1000
+: 2 row(s) returned
+[13, 02:45:02] select * from rented
+LIMIT 0, 1000
+: Running...
+[13, 02:45:02] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[13, 02:45:02] select * from rented
+LIMIT 0, 1000
+: 0 row(s) returned
+[14, 02:45:29] select * from rented
+LIMIT 0, 1000
+: Running...
+[14, 02:45:29] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[14, 02:45:29] select * from rented
+LIMIT 0, 1000
+: 0 row(s) returned
+[15, 02:45:41] DROP TABLE `mrms`.`rent`, `mrms`.`rented`: Running...
+[15, 02:45:43] DROP TABLE `mrms`.`rent`, `mrms`.`rented`: 0 row(s) affected
+[16, 02:46:37] Apply changes to rented: Applying object changes ...
+[16, 02:46:38] Applying changes to rented...: 
+[16, 02:46:40] : Changes applied to rented
+[16, 02:46:41] Apply changes to rented: Changes applied
+[17, 02:47:35] select * from rented
+LIMIT 0, 1000
+: Running...
+[17, 02:47:35] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[17, 02:47:35] select * from rented
+LIMIT 0, 1000
+: 1 row(s) returned
+[18, 02:49:06] Apply changes to rent: Applying object changes ...
+[18, 02:49:09] Applying changes to rent...: 
+[18, 02:49:10] : Changes applied to rent
+[18, 02:49:14] Apply changes to rent: Changes applied
+[19, 02:50:38] select * from rented
+LIMIT 0, 1000
+: Running...
+[19, 02:50:38] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[19, 02:50:38] select * from rented
+LIMIT 0, 1000
+: 3 row(s) returned
+[20, 02:50:43] select * from rent
+LIMIT 0, 1000
+: Running...
+[20, 02:50:43] select * from rent
+LIMIT 0, 1000
+: Fetching...
+[20, 02:50:43] select * from rent
+LIMIT 0, 1000
+: 2 row(s) returned
+[21, 02:51:02] select * from rent
+LIMIT 0, 1000
+: Running...
+[21, 02:51:02] select * from rent
+LIMIT 0, 1000
+: Fetching...
+[21, 02:51:03] select * from rent
+LIMIT 0, 1000
+: 3 row(s) returned
+[22, 02:51:10] select * from rented
+LIMIT 0, 1000
+: Running...
+[22, 02:51:10] select * from rented
+LIMIT 0, 1000
+: Fetching...
+[22, 02:51:10] select * from rented
+LIMIT 0, 1000
+: 4 row(s) returned
+[23, 03:18:02] Apply changes to collect: Applying object changes ...
+[23, 03:18:04] Applying changes to collect...: 
+[23, 03:18:06] : Changes applied to collect
+[23, 03:18:07] Apply changes to collect: Changes applied
+[24, 03:18:14] select * from collect
+LIMIT 0, 1000
+: Running...
+[24, 03:18:14] select * from collect
+LIMIT 0, 1000
+: Fetching...
+[24, 03:18:14] select * from collect
+LIMIT 0, 1000
+: 0 row(s) returned
+[25, 03:19:08] select * from collect
+LIMIT 0, 1000
+: Running...
+[25, 03:19:08] select * from collect
+LIMIT 0, 1000
+: Fetching...
+[25, 03:19:08] select * from collect
+LIMIT 0, 1000
+: 1 row(s) returned
+[1, 16:27:53] select * from sell
+LIMIT 0, 1000
+: Running...
+[1, 16:27:53] select * from sell
+LIMIT 0, 1000
+: Fetching...
+[1, 16:27:54] select * from sell
+LIMIT 0, 1000
+: 8 row(s) returned
+[2, 16:31:55] Apply changes to sell: Applying object changes ...
+[2, 16:31:57] Applying changes to sell...: 
+[2, 16:32:01] Apply changes to sell: Error 1062: Duplicate entry '2' for key 'sell.PRIMARY'
+SQL Statement:
+ALTER TABLE `mrms`.`sell` 
+CHANGE COLUMN `mid` `mid` INT NOT NULL ,
+CHANGE COLUMN `custcontact` `custcontact` INT NULL ,
+DROP PRIMARY KEY,
+ADD PRIMARY KEY (`mid`)
+
+
+[3, 17:03:02] select * from rent
+LIMIT 0, 1000
+: Running...
+[3, 17:03:02] select * from rent
+LIMIT 0, 1000
+: Fetching...
+[3, 17:03:02] select * from rent
+LIMIT 0, 1000
+: 3 row(s) returned
+[1, 22:58:14] Could not connect, server may not be running.: Unable to connect to localhost
+[1, 22:58:59] Could not connect, server may not be running.: Unable to connect to localhost
+[1, 23:05:56] Could not connect, server may not be running.: Unable to connect to localhost
+[1, 23:06:23] Could not connect, server may not be running.: Unable to connect to localhost
+[2, 23:06:52] Could not connect, server may not be running.: Unable to connect to localhost
+[3, 23:06:56] Could not connect, server may not be running.: Unable to connect to localhost

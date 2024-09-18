@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="investor.InvestorController">
+    <top>
+        <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <AnchorPane prefHeight="100.0" prefWidth="902.0">
+                    <children>
+                  <ImageView fitHeight="650.0" fitWidth="920.0" layoutX="6.0" layoutY="-10.0">
+                     <image>
+                         <Image url="file:/home/faaira/Desktop/Semester 6/SE/sprint2/HmariCar/to send/investedcars.jpg" />
+                     </image>
+                  </ImageView>
+                        <Label alignment="TOP_CENTER" layoutX="329.0" layoutY="60.0" text="Hamari Car" underline="true">
+                            <font>
+                                <Font name="Times New Roman Bold" size="57.0" />
+                            </font>
+                     <textFill>
+                        <LinearGradient cycleMethod="REPEAT" endX="0.04761904761904767" endY="0.24761904761904763" startX="0.7" startY="0.49523809523809526">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="1.0" green="0.9868826866149902" blue="0.21296297013759613" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="0.8865979381443299">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="0.08406432718038559" green="0.3192007839679718" blue="0.7894737124443054" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                        </Label>
+                        <ImageView fitHeight="83.0" fitWidth="94.0" layoutX="807.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="file:/home/faaira/Desktop/Semester 6/SE/sprint2/HmariCar/src/sample/m.jpg" />
+                            </image>
+                        </ImageView>
+                  <TableView fx:id="tableIsbCar" layoutX="214.0" layoutY="239.0" prefHeight="223.0" prefWidth="504.0">
+                    <columns>
+                      <TableColumn fx:id="colSector" prefWidth="75.0" text="Sector" />
+                      <TableColumn fx:id="colType" prefWidth="75.0" text="Type" />
+                        <TableColumn fx:id="colModel" prefWidth="75.0" text="Model" />
+                        <TableColumn fx:id="colNumber" prefWidth="75.0" text="Number" />
+                        <TableColumn fx:id="colColor" prefWidth="75.0" text="Color" />
+                    </columns>
+                  </TableView>
+                      <Label layoutX="389.0" layoutY="150.0" text="Investments">
+                          <font>
+                              <Font name="System Bold" size="27.0" />
+                          </font>
+                     <textFill>
+                        <LinearGradient cycleMethod="REPEAT" endX="0.04761904761904767" endY="0.24761904761904763" startX="0.37619047619047613" startY="0.49523809523809526">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="1.0" green="0.9868826866149902" blue="0.21296297013759613" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="0.8865979381443299">
+                                 <color>
+                                    <Color red="0.11239035427570343" green="0.21632857620716095" blue="0.5921052694320679" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="0.9599999785423279" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                      </Label>
+                        <Button layoutX="768.0" layoutY="521.0" mnemonicParsing="false" onAction="#investBackPressed" prefHeight="26.0" prefWidth="78.0" text="Go Back" />
+                      <Button layoutX="779.0" layoutY="206.0" mnemonicParsing="false" onAction="#sample_view" prefHeight="26.0" prefWidth="94.0" text="Log Out" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </HBox>
+    </top>
+</BorderPane>

@@ -1,0 +1,140 @@
+[1, 23:59:40] Could not connect, server may not be running.: Unable to connect to localhost
+[1, 00:00:33] Could not connect, server may not be running.: Unable to connect to localhost
+[1, 00:04:30] Could not connect, server may not be running.: Unable to connect to localhost
+[1, 00:28:39] Apply changes to hamaricar: Applying object changes ...
+[1, 00:28:44] Applying changes to hamaricar...: 
+[1, 00:28:45] : Changes applied to hamaricar
+[1, 00:28:51] Apply changes to hamaricar: Changes applied
+[2, 00:31:28] Apply changes to islamabadcars: Applying object changes ...
+[2, 00:31:32] Applying changes to islamabadcars...: 
+[2, 00:31:34] : Changes applied to islamabadcars
+[2, 00:31:36] Apply changes to islamabadcars: Changes applied
+[3, 00:45:56] Apply changes to islamabadcars: Applying object changes ...
+[3, 00:45:58] Applying changes to islamabadcars...: 
+[3, 00:46:01] : Changes applied to islamabadcars
+[3, 00:46:03] Apply changes to islamabadcars: Changes applied
+[4, 00:56:45] SELECT * FROM hamaricar.islamabadcars
+LIMIT 0, 1000
+: Running...
+[4, 00:56:45] SELECT * FROM hamaricar.islamabadcars
+LIMIT 0, 1000
+: Fetching...
+[4, 00:56:46] SELECT * FROM hamaricar.islamabadcars
+LIMIT 0, 1000
+: 0 row(s) returned
+[5, 01:21:02] Apply changes to islamabadcars: Applying object changes ...
+[5, 01:21:04] Applying changes to islamabadcars...: 
+[5, 01:21:05] : Changes applied to islamabadcars
+[5, 01:21:07] Apply changes to islamabadcars: Changes applied
+[6, 01:22:28] SELECT available
+FROM `hamaricar`.`islamabadcars`
+LIMIT 0, 1000
+: Running...
+[6, 01:22:28] SELECT available
+FROM `hamaricar`.`islamabadcars`
+LIMIT 0, 1000
+: Fetching...
+[6, 01:22:28] SELECT available
+FROM `hamaricar`.`islamabadcars`
+LIMIT 0, 1000
+: 2 row(s) returned
+[7, 01:22:34] SELECT * FROM hamaricar.islamabadcars
+LIMIT 0, 1000
+: Running...
+[7, 01:22:34] SELECT * FROM hamaricar.islamabadcars
+LIMIT 0, 1000
+: Fetching...
+[7, 01:22:34] SELECT * FROM hamaricar.islamabadcars
+LIMIT 0, 1000
+: 2 row(s) returned
+[8, 01:22:49] UPDATE `hamaricar`.`islamabadcars` SET `available` = 'true' WHERE (`number` = '456'): 1366: Incorrect integer value: 'true' for column 'available' at row 1
+[9, 01:22:49] 
+UPDATE `hamaricar`.`islamabadcars` SET `available` = 'false' WHERE (`number` = '789'): 1366: Incorrect integer value: 'false' for column 'available' at row 1
+[10, 01:23:24] Apply changes to islamabadcars: Applying object changes ...
+[10, 01:23:25] Applying changes to islamabadcars...: 
+[10, 01:23:29] : Changes applied to islamabadcars
+[10, 01:23:31] Apply changes to islamabadcars: Changes applied
+[11, 01:23:36] SELECT * FROM hamaricar.islamabadcars
+LIMIT 0, 1000
+: Running...
+[11, 01:23:36] SELECT * FROM hamaricar.islamabadcars
+LIMIT 0, 1000
+: Fetching...
+[11, 01:23:36] SELECT * FROM hamaricar.islamabadcars
+LIMIT 0, 1000
+: 2 row(s) returned
+[1, 21:37:36] SELECT * FROM hamaricar.islamabadcars
+LIMIT 0, 1000
+: Running...
+[1, 21:37:36] SELECT * FROM hamaricar.islamabadcars
+LIMIT 0, 1000
+: Fetching...
+[1, 21:37:36] SELECT * FROM hamaricar.islamabadcars
+LIMIT 0, 1000
+: 2 row(s) returned
+[1, 22:59:33] Could not connect, server may not be running.: Unable to connect to localhost
+[1, 23:00:07] Could not connect, server may not be running.: Unable to connect to localhost
+[1, 23:00:41] Could not connect, server may not be running.: Unable to connect to localhost
+[1, 23:02:48] Could not connect, server may not be running.: Unable to connect to localhost
+[1, 23:31:56] Apply changes to bookings: Applying object changes ...
+[1, 23:32:00] Applying changes to bookings...: 
+[1, 23:32:04] : Changes applied to bookings
+[1, 23:32:07] Apply changes to bookings: Changes applied
+[2, 23:38:20] SELECT * FROM hamaricar.bookings
+LIMIT 0, 1000
+: Running...
+[2, 23:38:20] SELECT * FROM hamaricar.bookings
+LIMIT 0, 1000
+: Fetching...
+[2, 23:38:20] SELECT * FROM hamaricar.bookings
+LIMIT 0, 1000
+: 0 row(s) returned
+[3, 23:38:33] SELECT * FROM hamaricar.bookings
+LIMIT 0, 1000
+: Running...
+[3, 23:38:33] SELECT * FROM hamaricar.bookings
+LIMIT 0, 1000
+: Fetching...
+[3, 23:38:33] SELECT * FROM hamaricar.bookings
+LIMIT 0, 1000
+: 0 row(s) returned
+[4, 23:40:19] SELECT * FROM hamaricar.bookings
+LIMIT 0, 1000
+: Running...
+[4, 23:40:19] SELECT * FROM hamaricar.bookings
+LIMIT 0, 1000
+: Fetching...
+[4, 23:40:19] SELECT * FROM hamaricar.bookings
+LIMIT 0, 1000
+: 1 row(s) returned
+[5, 01:12:16] islamabadcars: Running...
+[5, 01:12:16] islamabadcars: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'islamabadcars' at line 1
+[6, 01:12:19] islamabadcars: Running...
+[6, 01:12:19] islamabadcars: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'islamabadcars' at line 1
+[7, 01:12:28] SELECT * FROM hamaricar.islamabadcars
+LIMIT 0, 1000
+: Running...
+[7, 01:12:28] SELECT * FROM hamaricar.islamabadcars
+LIMIT 0, 1000
+: Fetching...
+[7, 01:12:29] SELECT * FROM hamaricar.islamabadcars
+LIMIT 0, 1000
+: 2 row(s) returned
+[8, 01:34:43] SELECT * FROM hamaricar.islamabadcars
+LIMIT 0, 1000
+: Running...
+[8, 01:34:43] SELECT * FROM hamaricar.islamabadcars
+LIMIT 0, 1000
+: Fetching...
+[8, 01:34:43] SELECT * FROM hamaricar.islamabadcars
+LIMIT 0, 1000
+: 3 row(s) returned
+[9, 01:51:02] SELECT * FROM hamaricar.islamabadcars
+LIMIT 0, 1000
+: Running...
+[9, 01:51:02] SELECT * FROM hamaricar.islamabadcars
+LIMIT 0, 1000
+: Fetching...
+[9, 01:51:02] SELECT * FROM hamaricar.islamabadcars
+LIMIT 0, 1000
+: 3 row(s) returned

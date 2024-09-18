@@ -1,0 +1,118 @@
+00:00:56 [ERR][      Workbench]: Console redirection failed.
+00:00:56 [INF][      Workbench]: Starting up Workbench
+00:00:56 [INF][      Workbench]: Current environment:
+	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0\MySQLWorkbench.exe" 
+	CurrentDirectory: C:\Program Files\MySQL\MySQL Workbench 8.0
+	HasShutdownStarted: False
+	OSVersion: Microsoft Windows NT 6.2.9200.0
+	SystemDirectory: C:\Windows\system32
+	TickCount: 44082937
+	UserInteractive: True
+	Version: 4.0.30319.42000
+	WorkingSet: 41897984
+00:00:56 [INF][      Workbench]: Environment variables:
+	COMPUTERNAME = DESKTOP-A91677V
+	USERPROFILE = C:\Users\kheta
+	HOMEPATH = \Users\kheta
+	LOCALAPPDATA = C:\Users\kheta\AppData\Local
+	PyCharm Edu = C:\Program Files\JetBrains\PyCharm Edu 2020.3.4\bin;
+	PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	PROCESSOR_ARCHITECTURE = AMD64
+	Path = C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\MinGw\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\kheta\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Java\jre1.8.0_271\bin;;C:\Users\kheta\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Edu 2020.3.4\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2020.3.4\bin;
+	CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+	ProgramFiles(x86) = C:\Program Files (x86)
+	PROCESSOR_LEVEL = 6
+	LOGONSERVER = \\DESKTOP-A91677V
+	PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+	HOMEDRIVE = C:
+	SystemRoot = C:\Windows
+	TEMP = C:\Users\kheta\AppData\Local\Temp
+	SESSIONNAME = Console
+	ALLUSERSPROFILE = C:\ProgramData
+	DriverData = C:\Windows\System32\Drivers\DriverData
+	FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+	APPDATA = C:\Users\kheta\AppData\Roaming
+	PROCESSOR_REVISION = 8e0a
+	USERNAME = kheta
+	CommonProgramW6432 = C:\Program Files\Common Files
+	IntelliJ IDEA Educational Edition = C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2020.3.4\bin;
+	OneDrive = C:\Users\kheta\OneDrive
+	CommonProgramFiles = C:\Program Files\Common Files
+	OS = Windows_NT
+	USERDOMAIN_ROAMINGPROFILE = DESKTOP-A91677V
+	PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+	OneDriveConsumer = C:\Users\kheta\OneDrive
+	SystemDrive = C:
+	FPS_BROWSER_USER_PROFILE_STRING = Default
+	ProgramFiles = C:\Program Files
+	NUMBER_OF_PROCESSORS = 8
+	ComSpec = C:\Windows\system32\cmd.exe
+	TMP = C:\Users\kheta\AppData\Local\Temp
+	ProgramData = C:\ProgramData
+	ProgramW6432 = C:\Program Files
+	windir = C:\Windows
+	USERDOMAIN = DESKTOP-A91677V
+	PUBLIC = C:\Users\Public
+00:00:56 [INF][      Workbench]: Current version given by meta info is: 8.0.24
+00:00:56 [INF][      Workbench]: Setting PATH to: C:\Windows\system32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\MinGw\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\kheta\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Java\jre1.8.0_271\bin;;C:\Users\kheta\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Edu 2020.3.4\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2020.3.4\bin;
+00:00:56 [INF][ mforms managed]: Initializing mforms wrapper
+00:00:56 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: C:\Program Files\MySQL\MySQL Workbench 8.0
+	plugin path: C:\Program Files\MySQL\MySQL Workbench 8.0
+	struct path: 
+	module path: C:\Program Files\MySQL\MySQL Workbench 8.0/modules
+	library path: C:\Program Files\MySQL\MySQL Workbench 8.0
+	user data dir: C:\Users\kheta\AppData\Roaming\MySQL\Workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+00:00:56 [INF][      WBContext]: WbContext::init
+00:00:56 [INF][            WBA]: Looking for extension modules for WBA...
+00:00:56 [INF][            WBA]: 0 extension modules found
+00:00:56 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+00:00:56 [WRN][            grt]: C:\Users\kheta\AppData\Roaming\MySQL\Workbench\server_instances.xml:18: link '{40AE6A46-609E-4AF9-A4F5-5348DCEB9A6C}' <object GrtObject> key=owner could not be resolved
+00:00:56 [WRN][            grt]: Duplicate plugin name wb.tools.cmdlineClient	There is more than one plugin with the name wb.tools.cmdlineClient (in PyWbUtils and PyWbUtils).
+00:00:56 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Windows version 8.0.24 CE build 681332 (64 bit)
+	Configuration Directory: C:\Users\kheta\AppData\Roaming\MySQL\Workbench
+	Data Directory: C:\Program Files\MySQL\MySQL Workbench 8.0
+	Cairo Version: 1.17.4
+	OS: Microsoft Windows 10 Pro
+	CPU: 8x Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz, 7.9 GiB RAM
+	Active video adapter Intel(R) UHD Graphics 620
+	Installed video RAM: 1024 MB
+	Current video mode: 1920 x 1080 x 4294967296 colors
+	Used bit depth: 32
+	Driver version: 25.20.100.6519
+	Installed display drivers: C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_1cb41c9af98b1ce8\igdumdim64.dll,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_1cb41c9af98b1ce8\igd10iumd64.dll,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_1cb41c9af98b1ce8\igd10iumd64.dll,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_1cb41c9af98b1ce8\igd12umd64.dll
+	Current user language: English (United States)
+
+00:00:57 [INF][      Workbench]: UI is up
+00:00:57 [INF][      Workbench]: Running the application
+00:04:30 [ERR][SQL Editor Form]: SqlEditorForm: exception in do_connect method: Exception: Unable to connect to localhost
+00:04:30 [WRN][SQL Editor Form]: Unable to connect to localhost
+00:04:30 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+00:04:30 [INF][SQL Editor Form]: Error 2003 connecting to server, assuming server is down and opening editor with no connection
+00:04:31 [INF][        WQE.net]: Launching SQL IDE
+00:04:34 [INF][        WQE.net]: SQL IDE UI is ready
+00:04:36 [ERR][wb_admin_control.py:init:307]: Error connecting to MySQL: Unable to connect to localhost (code 2003)
+00:04:37 [INF][wb_admin_control.py:query_server_installation_info:860]: Currently connected to MySQL server version 'unknown', conn status = None, active plugins = []
+00:04:38 [INF][        WQE.net]: Shutting down SQL editor (hamaricar)
+00:04:39 [ERR][wb_admin_control.py:server_polling_thread:561]: Error creating SQL connection for monitoring: MySQLError('Unable to connect to localhost (code 2003)')
+00:05:03 [INF][SQL Editor Form]: Opened connection 'hamaricar' to MySQL Community Server - GPL version 8.0.24
+00:05:03 [INF][        WQE.net]: Launching SQL IDE
+00:05:04 [INF][        WQE.net]: SQL IDE UI is ready
+00:31:01 [WRN][  TableEditorBE]: VARCHAR() is not a valid column type
+00:31:08 [WRN][  TableEditorBE]: VARCHAR() is not a valid column type
+01:22:49 [ERR][SQL Editor Form]: 1366: Incorrect integer value: 'true' for column 'available' at row 1
+01:22:49 [ERR][SQL Editor Form]: 1366: Incorrect integer value: 'false' for column 'available' at row 1
+01:22:49 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+01:22:49 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+01:55:18 [INF][        WQE.net]: Shutting down SQL editor (hamaricar)
+01:55:18 [INF][      Workbench]: Shutting down Workbench
+01:55:19 [INF][ mforms managed]: Shutting down mforms wrapper
+01:55:19 [INF][      Workbench]: Done

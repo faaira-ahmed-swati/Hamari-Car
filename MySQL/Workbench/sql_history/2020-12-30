@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ENTRY timestamp='12:59:31'>CREATE TABLE `mrms`.`movietable` (&#x0A;&#x0A;)</ENTRY>
+<ENTRY timestamp='14:20:32'>select * from movietable</ENTRY>
+<ENTRY timestamp='20:07:34'>DROP TABLE `mrms`.`movietable`</ENTRY>

@@ -1,0 +1,143 @@
+20:06:31 [ERR][      Workbench]: Console redirection failed.
+20:06:31 [INF][      Workbench]: Starting up Workbench
+20:06:31 [INF][      Workbench]: Current environment:
+	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0\MySQLWorkbench.exe" 
+	CurrentDirectory: C:\Program Files\MySQL\MySQL Workbench 8.0
+	HasShutdownStarted: False
+	OSVersion: Microsoft Windows NT 6.2.9200.0
+	SystemDirectory: C:\Windows\system32
+	TickCount: 14210796
+	UserInteractive: True
+	Version: 4.0.30319.42000
+	WorkingSet: 41525248
+20:06:31 [INF][      Workbench]: Environment variables:
+	COMPUTERNAME = DESKTOP-A91677V
+	USERPROFILE = C:\Users\kheta
+	HOMEPATH = \Users\kheta
+	LOCALAPPDATA = C:\Users\kheta\AppData\Local
+	PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	PROCESSOR_ARCHITECTURE = AMD64
+	CommonProgramW6432 = C:\Program Files\Common Files
+	CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+	ProgramFiles(x86) = C:\Program Files (x86)
+	PROCESSOR_LEVEL = 6
+	LOGONSERVER = \\DESKTOP-A91677V
+	PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+	HOMEDRIVE = C:
+	SystemRoot = C:\Windows
+	SESSIONNAME = Console
+	ALLUSERSPROFILE = C:\ProgramData
+	DriverData = C:\Windows\System32\Drivers\DriverData
+	FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+	APPDATA = C:\Users\kheta\AppData\Roaming
+	Path = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\MinGw\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\kheta\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Java\jre1.8.0_271\bin;
+	USERNAME = kheta
+	OneDrive = C:\Users\kheta\OneDrive
+	TEMP = C:\Users\kheta\AppData\Local\Temp
+	PT6HOME = C:\Program Files (x86)\Cisco Packet Tracer 6.2iv
+	CommonProgramFiles = C:\Program Files\Common Files
+	OS = Windows_NT
+	USERDOMAIN_ROAMINGPROFILE = DESKTOP-A91677V
+	PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+	OneDriveConsumer = C:\Users\kheta\OneDrive
+	USERDOMAIN = DESKTOP-A91677V
+	SystemDrive = C:
+	FPS_BROWSER_USER_PROFILE_STRING = Default
+	ProgramFiles = C:\Program Files
+	NUMBER_OF_PROCESSORS = 8
+	ComSpec = C:\Windows\system32\cmd.exe
+	TMP = C:\Users\kheta\AppData\Local\Temp
+	ProgramData = C:\ProgramData
+	ProgramW6432 = C:\Program Files
+	windir = C:\Windows
+	PROCESSOR_REVISION = 8e0a
+	PUBLIC = C:\Users\Public
+20:06:32 [INF][      Workbench]: Current version given by meta info is: 8.0.22
+20:06:32 [INF][      Workbench]: Setting PATH to: C:\Windows\system32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\MinGw\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\kheta\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Java\jre1.8.0_271\bin;
+20:06:32 [INF][ mforms managed]: Initializing mforms wrapper
+20:06:32 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: C:\Program Files\MySQL\MySQL Workbench 8.0
+	plugin path: C:\Program Files\MySQL\MySQL Workbench 8.0
+	struct path: 
+	module path: C:\Program Files\MySQL\MySQL Workbench 8.0/modules
+	library path: C:\Program Files\MySQL\MySQL Workbench 8.0
+	user data dir: C:\Users\kheta\AppData\Roaming\MySQL\Workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+20:06:32 [INF][      WBContext]: WbContext::init
+20:06:41 [INF][            WBA]: Looking for extension modules for WBA...
+20:06:41 [INF][            WBA]: 0 extension modules found
+20:06:42 [WRN][            grt]: C:\Users\kheta\AppData\Roaming\MySQL\Workbench\connections.xml:15: link '{5DF932DA-9C58-4678-A0C4-A663D755952B}' <object GrtObject> key=owner could not be resolved
+20:06:42 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Windows version 8.0.22 CE build 107600 (64 bit)
+	Configuration Directory: C:\Users\kheta\AppData\Roaming\MySQL\Workbench
+	Data Directory: C:\Program Files\MySQL\MySQL Workbench 8.0
+	Cairo Version: 1.10.2
+	OS: Microsoft Windows 10 Pro
+	CPU: 8x Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz, 7.9 GiB RAM
+	Active video adapter Intel(R) UHD Graphics 620
+	Installed video RAM: 1024 MB
+	Current video mode: 1920 x 1080 x 4294967296 colors
+	Used bit depth: 32
+	Driver version: 25.20.100.6519
+	Installed display drivers: C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_1cb41c9af98b1ce8\igdumdim64.dll,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_1cb41c9af98b1ce8\igd10iumd64.dll,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_1cb41c9af98b1ce8\igd10iumd64.dll,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_1cb41c9af98b1ce8\igd12umd64.dll
+	Current user language: English (United States)
+
+20:06:42 [INF][      Workbench]: UI is up
+20:06:42 [INF][      Workbench]: Running the application
+20:06:52 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+20:06:52 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+20:06:57 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.22
+20:06:59 [INF][        WQE.net]: Launching SQL IDE
+20:07:01 [INF][        WQE.net]: SQL IDE UI is ready
+20:09:31 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+20:09:31 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+20:09:33 [ERR][SQL Editor Form]: Error 1171: All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead
+SQL Statement:
+ALTER TABLE `mrms`.`movietable` 
+CHANGE COLUMN `id` `id` INT NULL DEFAULT NULL 
+
+
+20:09:40 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+20:09:40 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+20:09:42 [ERR][SQL Editor Form]: Error 1171: All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead
+SQL Statement:
+ALTER TABLE `mrms`.`movietable` 
+CHANGE COLUMN `id` `id` INT NULL 
+
+
+20:10:45 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+20:10:50 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+20:10:56 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+20:10:56 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+20:10:57 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+20:11:09 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+20:11:09 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+20:11:09 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+20:11:10 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+20:11:11 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+20:11:18 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+20:11:23 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+20:11:33 [ERR][SQL Editor Form]: Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1,'Titanic','Romance',100,500)' at line 1
+20:12:31 [ERR][SQL Editor Form]: Error Code: 1062. Duplicate entry '1' for key 'movietable.PRIMARY'
+21:38:28 [WRN][  TableEditorBE]:  is not a valid column type
+22:48:02 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+22:51:09 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+22:51:09 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+22:51:23 [ERR][SQL Editor Form]: Error 1171: All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead
+SQL Statement:
+ALTER TABLE `mrms`.`sell` 
+CHANGE COLUMN `custcontact` `custcontact` VARCHAR(45) NULL 
+
+
+01:23:44 [WRN][  TableEditorBE]:  is not a valid column type
+01:25:17 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+02:46:17 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80)
+02:46:21 [INF][      Workbench]: Shutting down Workbench
+02:46:22 [INF][ mforms managed]: Shutting down mforms wrapper
+02:46:22 [INF][      Workbench]: Done

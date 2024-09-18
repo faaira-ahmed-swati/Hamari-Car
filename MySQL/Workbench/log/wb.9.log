@@ -1,0 +1,169 @@
+12:58:00 [ERR][      Workbench]: Console redirection failed.
+12:58:00 [INF][      Workbench]: Starting up Workbench
+12:58:00 [INF][      Workbench]: Current environment:
+	Command line: "C:\Program Files\MySQL\MySQL Workbench 8.0\MySQLWorkbench.exe" 
+	CurrentDirectory: C:\Program Files\MySQL\MySQL Workbench 8.0
+	HasShutdownStarted: False
+	OSVersion: Microsoft Windows NT 6.2.9200.0
+	SystemDirectory: C:\Windows\system32
+	TickCount: 127666703
+	UserInteractive: True
+	Version: 4.0.30319.42000
+	WorkingSet: 41750528
+12:58:00 [INF][      Workbench]: Environment variables:
+	COMPUTERNAME = DESKTOP-A91677V
+	USERPROFILE = C:\Users\kheta
+	HOMEPATH = \Users\kheta
+	LOCALAPPDATA = C:\Users\kheta\AppData\Local
+	PSModulePath = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	PROCESSOR_ARCHITECTURE = AMD64
+	CommonProgramW6432 = C:\Program Files\Common Files
+	CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+	ProgramFiles(x86) = C:\Program Files (x86)
+	PROCESSOR_LEVEL = 6
+	LOGONSERVER = \\DESKTOP-A91677V
+	PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+	HOMEDRIVE = C:
+	SystemRoot = C:\Windows
+	SESSIONNAME = Console
+	ALLUSERSPROFILE = C:\ProgramData
+	DriverData = C:\Windows\System32\Drivers\DriverData
+	FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+	APPDATA = C:\Users\kheta\AppData\Roaming
+	Path = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\MinGw\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\kheta\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Java\jre1.8.0_271\bin;
+	USERNAME = kheta
+	OneDrive = C:\Users\kheta\OneDrive
+	TEMP = C:\Users\kheta\AppData\Local\Temp
+	PT6HOME = C:\Program Files (x86)\Cisco Packet Tracer 6.2iv
+	CommonProgramFiles = C:\Program Files\Common Files
+	OS = Windows_NT
+	USERDOMAIN_ROAMINGPROFILE = DESKTOP-A91677V
+	PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+	OneDriveConsumer = C:\Users\kheta\OneDrive
+	USERDOMAIN = DESKTOP-A91677V
+	SystemDrive = C:
+	FPS_BROWSER_USER_PROFILE_STRING = Default
+	ProgramFiles = C:\Program Files
+	NUMBER_OF_PROCESSORS = 8
+	ComSpec = C:\Windows\system32\cmd.exe
+	TMP = C:\Users\kheta\AppData\Local\Temp
+	ProgramData = C:\ProgramData
+	ProgramW6432 = C:\Program Files
+	windir = C:\Windows
+	PROCESSOR_REVISION = 8e0a
+	PUBLIC = C:\Users\Public
+12:58:00 [INF][      Workbench]: Current version given by meta info is: 8.0.22
+12:58:00 [INF][      Workbench]: Setting PATH to: C:\Windows\system32;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\MinGw\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\kheta\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Java\jre1.8.0_271\bin;
+12:58:00 [INF][ mforms managed]: Initializing mforms wrapper
+12:58:00 [INF][   WBContext UI]: Initializing workbench context UI with these values:
+	base dir: C:\Program Files\MySQL\MySQL Workbench 8.0
+	plugin path: C:\Program Files\MySQL\MySQL Workbench 8.0
+	struct path: 
+	module path: C:\Program Files\MySQL\MySQL Workbench 8.0/modules
+	library path: C:\Program Files\MySQL\MySQL Workbench 8.0
+	user data dir: C:\Users\kheta\AppData\Roaming\MySQL\Workbench
+	open at start: 
+	open type: 
+	run at startup: 
+	run type: 
+	Force SW rendering: No
+	Force OpenGL: No
+	quit when done: No
+12:58:00 [INF][      WBContext]: WbContext::init
+12:58:06 [INF][            WBA]: Looking for extension modules for WBA...
+12:58:06 [INF][            WBA]: 0 extension modules found
+12:58:07 [WRN][            grt]: C:\Users\kheta\AppData\Roaming\MySQL\Workbench\connections.xml:15: link '{F2A72E24-7DDD-4A4D-840E-87E498E408B2}' <object GrtObject> key=owner could not be resolved
+12:58:08 [INF][      WBContext]: System info:
+ 	MySQL Workbench Community (GPL) for Windows version 8.0.22 CE build 107600 (64 bit)
+	Configuration Directory: C:\Users\kheta\AppData\Roaming\MySQL\Workbench
+	Data Directory: C:\Program Files\MySQL\MySQL Workbench 8.0
+	Cairo Version: 1.10.2
+	OS: Microsoft Windows 10 Pro
+	CPU: 8x Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz, 7.9 GiB RAM
+	Active video adapter Intel(R) UHD Graphics 620
+	Installed video RAM: 1024 MB
+	Current video mode: 1920 x 1080 x 4294967296 colors
+	Used bit depth: 32
+	Driver version: 25.20.100.6519
+	Installed display drivers: C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_1cb41c9af98b1ce8\igdumdim64.dll,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_1cb41c9af98b1ce8\igd10iumd64.dll,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_1cb41c9af98b1ce8\igd10iumd64.dll,C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_1cb41c9af98b1ce8\igd12umd64.dll
+	Current user language: English (United States)
+
+12:58:08 [INF][      Workbench]: UI is up
+12:58:08 [INF][      Workbench]: Running the application
+12:58:23 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.22
+12:58:24 [INF][        WQE.net]: Launching SQL IDE
+12:58:26 [INF][        WQE.net]: SQL IDE UI is ready
+12:59:31 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: There was an error while applying the SQL script to the database.
+12:59:31 [ERR][  GRTDispatcher]: worker: task 'wizard task' has failed with error:.There was an error while applying the SQL script to the database.
+12:59:47 [ERR][SQL Editor Form]: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3
+SQL Statement:
+CREATE TABLE `mrms`.`movietable` (
+
+)
+
+
+13:00:37 [ERR][SQL Editor Form]: 
+13:04:14 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:04:44 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:05:05 [ERR][SQL Editor Form]: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+13:05:07 [ERR][SQL Editor Form]: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+13:05:08 [ERR][SQL Editor Form]: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+13:05:24 [ERR][SQL Editor Form]: Error Code: 1046. No database selected
+Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar.
+13:07:49 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:09:06 [WRN][         mforms]: Resource file not found: db.Constraints.16x16.png
+13:09:06 [WRN][         mforms]: Resource file not found: db.Partitions.16x16.png
+13:09:07 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+13:09:07 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+13:09:19 [WRN][         mforms]: Resource file not found: db.StoredProcedure.16x16.png
+13:09:19 [WRN][         mforms]: Resource file not found: db.Function.16x16.png
+13:09:19 [WRN][         mforms]: Resource file not found: db.Grants.16x16.png
+13:10:31 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:10:34 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:10:34 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:10:36 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:10:42 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:10:47 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:10:48 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:10:49 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:10:51 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:11:23 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:11:28 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:11:28 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:11:30 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:11:32 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:11:42 [ERR][SQL Editor Form]: Error Code: 1136. Column count doesn't match value count at row 1
+13:12:15 [ERR][SQL Editor Form]: Error Code: 1136. Column count doesn't match value count at row 1
+13:12:41 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:12:52 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:12:59 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:13:00 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:13:00 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:13:00 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:13:01 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:13:39 [ERR][SQL Editor Form]: Error Code: 1062. Duplicate entry '1' for key 'movietable.PRIMARY'
+13:14:32 [ERR][      WBContext]: WBContext: exception in flush idle task: Exception: 
+13:14:39 [ERR][SQL Editor Form]: Error Code: 1146. Table 'mrms.student' doesn't exist
+14:01:08 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80)
+14:02:11 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+14:02:11 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+14:02:14 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.22
+14:02:14 [INF][        WQE.net]: Launching SQL IDE
+14:02:14 [INF][        WQE.net]: SQL IDE UI is ready
+14:05:35 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.22
+14:05:35 [INF][        WQE.net]: Launching SQL IDE
+14:05:35 [INF][        WQE.net]: SQL IDE UI is ready
+14:05:43 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80 (mrms))
+14:05:44 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80 (mrms))
+14:05:50 [ERR][  GRTDispatcher]: exception in grt execute_task, continuing: Exception: Access denied for user 'root'@'localhost' (using password: NO)
+14:05:50 [ERR][  GRTDispatcher]: worker: task 'execute sql queries' has failed with error:.Access denied for user 'root'@'localhost' (using password: NO)
+14:05:57 [INF][SQL Editor Form]: Opened connection 'Local instance MySQL80' to MySQL Community Server - GPL version 8.0.22
+14:05:58 [INF][        WQE.net]: Launching SQL IDE
+14:05:58 [INF][        WQE.net]: SQL IDE UI is ready
+14:45:44 [INF][        WQE.net]: Shutting down SQL editor (Local instance MySQL80)
+14:45:44 [INF][      Workbench]: Shutting down Workbench
+14:45:44 [INF][ mforms managed]: Shutting down mforms wrapper
+14:45:44 [INF][      Workbench]: Done

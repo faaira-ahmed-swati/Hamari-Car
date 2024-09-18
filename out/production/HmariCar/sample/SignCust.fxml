@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.SignCust"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <ImageView fitHeight="600.0" fitWidth="900.0">
+            <image>
+                <Image url="file:/home/faaira/Desktop/Semester 6/SE/sprint2/HmariCar/to send/passwordview.jpg" />
+            </image>
+        </ImageView>
+        <Label alignment="TOP_CENTER" layoutX="202.0" layoutY="108.0" text="Welcome To Hamari Car" underline="true">
+            <font>
+                <Font name="Times New Roman Bold" size="47.0" />
+            </font>
+            <textFill>
+                <RadialGradient centerX="0.15000000000000002" centerY="0.7952380952380953" cycleMethod="REFLECT" focusAngle="74.74" focusDistance="0.4651162790697674" radius="0.39534883720930236">
+                    <stops>
+                        <Stop>
+                            <color>
+                                <Color red="0.2699398994445801" green="0.1449805051088333" blue="0.8947368264198303" />
+                            </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                            <color>
+                                <Color red="0.8947368264198303" green="0.10355750471353531" blue="0.723314642906189" />
+                            </color>
+                        </Stop>
+                    </stops>
+                </RadialGradient>
+            </textFill>
+        </Label>
+        <Button layoutX="556.0" layoutY="281.0" mnemonicParsing="false" onAction="#submitCustPressed" prefHeight="38.0" prefWidth="84.0" text="Submit" />
+        <Button layoutX="774.0" layoutY="546.0" mnemonicParsing="false" onAction="#sample_view" prefHeight="26.0" prefWidth="101.0" text="Back" />
+    </children>
+
+</AnchorPane>

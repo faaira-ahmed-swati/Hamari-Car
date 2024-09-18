@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="customer.CustomerController">
+    <top>
+        <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <AnchorPane prefHeight="100.0" prefWidth="902.0">
+                    <children>
+                  <ImageView fitHeight="650.0" fitWidth="940.0" layoutX="-28.0" layoutY="-16.0">
+                     <image>
+                        <Image url="file:/home/faaira/Desktop/Semester 6/SE/sprint2/HmariCar/to send/endride.png" />
+                     </image>
+                  </ImageView>
+                        <Label alignment="TOP_CENTER" layoutX="280.0" layoutY="21.0" text="Hamari Car" underline="true">
+                            <font>
+                                <Font name="Microsoft YaHei Light" size="71.0" />
+                            </font>
+                     <textFill>
+                        <RadialGradient centerX="0.5444444444444444" centerY="0.2857142857142857" cycleMethod="REFLECT" focusAngle="-82.17" radius="0.5">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="1.0" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color blue="0.22002923488616943" green="0.22002923488616943" red="0.2763157784938812" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </textFill>
+                        </Label>
+                        <ImageView fitHeight="83.0" fitWidth="94.0" layoutX="807.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="file:/home/faaira/Desktop/Semester 6/SE/sprint2/HmariCar/src/sample/pngtree-vector-user-young-boy-avatar-icon-png-image_1538408.jpg" />
+                            </image>
+                        </ImageView>
+                      <Label layoutX="363.0" layoutY="136.0" text="Ride in Progress" textFill="RED">
+                          <font>
+                              <Font name="System Bold" size="26.0" />
+                          </font>
+                      </Label>
+                      <TableView fx:id="tableRideHst" layoutX="183.0" layoutY="197.0" prefHeight="223.0" prefWidth="534.0" tableMenuButtonVisible="true">
+                          <columns>
+                              <TableColumn fx:id="CarNo" prefWidth="75.0" text="Car No" />
+                              <TableColumn fx:id="Hour" prefWidth="75.0" text="Hour" />
+                              <TableColumn fx:id="Min" prefWidth="75.0" text="Min" />
+                              <TableColumn fx:id="Sec" prefWidth="75.0" text="Second" />
+                              <TableColumn fx:id="Day" prefWidth="75.0" text="Day" />
+                              <TableColumn fx:id="Month" prefWidth="75.0" text="Month" />
+                              <TableColumn fx:id="Year" prefWidth="75.0" text="Year" />
+                          </columns>
+                      </TableView>
+                        <Button layoutX="658.0" layoutY="525.0" mnemonicParsing="false" onAction="#endRidePressed" prefHeight="26.0" prefWidth="117.0" text="End Ride" textFill="RED" />
+                        <Button layoutX="183.0" layoutY="525.0" mnemonicParsing="false" onAction="#bookHistBackPressed" prefHeight="26.0" prefWidth="78.0" text="Go Back" textFill="RED" />
+                      <Button layoutX="781.0" layoutY="110.0" mnemonicParsing="false" onAction="#sample_view" prefHeight="26.0" prefWidth="94.0" text="Log Out" textFill="RED" />
+                  <Label layoutX="372.0" layoutY="428.0" prefHeight="16.0" prefWidth="140.0" text="Enter promo (if any)">
+                     <textFill>
+                        <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.9894737005233765" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color blue="1.0" green="1.0" red="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </RadialGradient>
+                     </textFill>
+                  </Label>
+                  <TextField fx:id="promo" layoutX="398.0" layoutY="451.0" prefHeight="26.0" prefWidth="105.0" />
+                  <Button layoutX="532.0" layoutY="451.0" mnemonicParsing="false" onAction="#addPromoPressed" prefHeight="26.0" prefWidth="120.0" text="Add promo" textFill="RED" />
+                  <Button layoutX="254.0" layoutY="451.0" mnemonicParsing="false" onAction="#checkPromoPressed" text="Check Promo " textFill="#ee0e0e" />
+                    </children>
+                </AnchorPane>
+            </children>
+        </HBox>
+    </top>
+    <bottom>
+        <HBox prefHeight="100.0" prefWidth="831.0" BorderPane.alignment="CENTER" />
+    </bottom>
+</BorderPane>

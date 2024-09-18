@@ -1,0 +1,2 @@
+SELECT available
+FROM `hamaricar`.`islamabadcars`;
